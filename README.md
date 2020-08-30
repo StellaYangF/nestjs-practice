@@ -1,38 +1,75 @@
-# nestjs训练营
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+</p>
 
-## 训练目标
-系统学习和掌握nestjs的实战应用，功能包括： 
+[travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
+[travis-url]: https://travis-ci.org/nestjs/nest
+[linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
+[linux-url]: https://travis-ci.org/nestjs/nest
+  
+  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
+<a href="https://travis-ci.org/nestjs/nest"><img src="https://api.travis-ci.org/nestjs/nest.svg?branch=master" alt="Travis" /></a>
+<a href="https://travis-ci.org/nestjs/nest"><img src="https://img.shields.io/travis/nestjs/nest/master.svg?label=linux" alt="Linux" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#5" alt="Coverage" /></a>
+<a href="https://gitter.im/nestjs/nestjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/nestjs/nestjs.svg" alt="Gitter" /></a>
+<a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
+  <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-- 1. 掌握nestjs基础概念及知识点
-- 2. 掌握typeorm操作数据库
-- 3. 掌握nestjs实际开发项目
+## Description
 
-## 入营要求
-- 掌握nestjs的知识
-- 保证入营期间和老师保持通信联系，不许无故缺席失联
-- 每天有至少2个小时的独立学习时间
-- 保证入营期间积极参与讨论和整理学习成果或是想法
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## 入营须知
-- 需要参加的小伙伴必须把学号和姓名添加到表格中：https://shimo.im/sheets/3WYyDwR36Cck6gDH/MODOC/
-- 本训练营共计36天，每两天为一个part，总共18part，从08月29日晚8点开始到10月03日晚8点结束 
-- 参加本训练营需要支付60学分
-- 每天晚8点布置实践任务，截止第三天晚8点完成，完成任务每天可依次获得 1、2、3、4、5、6、7、8、9、10、11、12、13、14、15、16、17、18个学分
-- 如果当天任务无法完成，则中止训练营资格，请自动离群，无法参与后续的学习，已经扣除的学分不退`机会只有一次，希望把握住`
-- 全部学员按学号尾号分为10个组,尾号相同的为一组,当天小组成员全部完成的每个人的学分翻倍
-- 在其期间因为某些原因不能参加训练营的小伙伴们要私聊助教
+## Installation
 
-## 训练流程
-- 1. 先将训练营的仓库代码仓库 `Fork` 到自己的码云账号下 `https://gitee.com/zhufengpeixun/zhufeng-nestjs`
-- 2. 将 Fork 后的仓库 Clone 到本地
-- 3. 在项目根目录下创建自己的项目并完成查看README.md文档
-- 4. 把实践总结(学到了什么？收获了什么?遇到了什么问题?如何解决的?)写在当天目录的`学习日记.md`文件里
-- 5. 在本地仓库完成作业后，push 到自己的码云远程仓库中
-- 6. 最后将自己最后的commit链接地址添加到训练营仓库的当天issue中
-- 7. 完成后在微信群中打卡，并`@`助教表示完成，在自己小组里可以`@组长`表示完成，组长可以在表格里添加学分，全员晚八点之前完成就可以进行翻倍，前提是组长需要向助教截图
-- 8. 大家如果遇到问题可以在群里讨论的
+```bash
+$ npm install
+```
 
-如果不会操作的可以看操作视频  http://img.zhufengpeixun.cn/submitwork.mp4
+## Running the app
 
+```bash
+# development
+$ npm run start
 
+# watch mode
+$ npm run start:dev
 
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+  Nest is [MIT licensed](LICENSE).
